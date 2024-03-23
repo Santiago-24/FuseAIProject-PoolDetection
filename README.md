@@ -1,2 +1,2 @@
 # FuseAIProject-PoolDetection
-In this project YOLOv8 model is used in an object detection task for locating pools in GPS images.
+This project is aim to make use of the `YOLOv9 model` for object detection tasks. In particular, a dataset of 100 GPS images containing pools around a certain region has been extracted from `Google Earth Pro` and annotated by using `Label Studio`. In addition, this dataset has been augmented using the library `Albumentations` (in order lo preserve the correct coordinates of the corresponding bounding boxes). The main idea is to create a model capable of detecting and locating the pools present in a certain GPS image.
